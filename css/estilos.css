@@ -1,0 +1,150 @@
+body {
+	background-color:#ffb366;
+    font-family: Roboto, sans-serif;
+}
+h1{ /*titulo Empresa*/
+   color: #de710b;
+   background: black;
+   text-align: center;
+   font-size: 50px;
+   border: 6px solid #de710b;
+   padding:15px;
+   margin:30px;
+}
+.tituloMainSection{ /*Titulo  de cada section del sitio*/
+	color: #de710b;
+	background-color: black;
+	font-size: 30px;
+	border: 4px solid #de710b;
+	text-align: center;
+}
+
+li{ /*nav menu principal*/
+	text-align: center;
+	list-style-position: inside;
+    padding: 15px 15px 10px 15px;
+    border: 4px solid #de710b;
+    display: inline;  
+    background-color: black;
+    position:relative;
+    margin: 5px;
+}
+a{ /*link a paginas del sitio*/
+	color: #de710b;
+  	line-height: 3px;
+  	text-decoration: none;
+  	font-size: 30px;
+}
+
+ul{ /*nav menu principal*/
+	list-style-type:none;
+	text-align: center;
+  	padding: 0;
+  	margin: 0;
+}
+
+ article{ /*galeria foto index*/
+	display: inline-block;
+	text-align: center; 
+	/*margin-left: 100px;
+	padding: 5px;*/
+}	
+.pieDePagina{ /*titulos del footer*/
+	display: inline-block;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	margin: 30px 20px 
+}
+
+footer{
+	text-align: center; 
+	margin:0;
+	padding:0;
+}
+
+.flexEncabezado{ /*flex header primera section*/
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-content: center;
+    background-image: linear-gradient(90deg, #853A01,#DE8A49) 
+}
+
+.flexMenu{ /*menu nav*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.direccion{
+	text-align: center;
+}
+
+.gridGallery{ /*grid pagina ofertas*/
+	width: 70%;
+	height:25%;
+	margin:0 auto;
+  	display: grid;
+  	grid-template-columns: repeat(2,1fr);
+  	grid-auto-rows: 1fr;
+  	grid-gap: 10px 10px;
+}
+
+.gridItem{ /*galeria pagina ofertas*/
+	height: 250px;
+}
+
+.gridItem img{ /*imagenes pagina ofertas*/
+	width: 100%;
+	height: 100%;
+}
+
+.footerGradient {
+	background-image: linear-gradient(90deg, #853A01,#DE8A49) 
+}
+
+.gridItem:hover { /*pag ofertas*/
+ transform: scale(1.2);
+ transition: transform 0.5s;
+}
+
+h2{
+	animation-duration: 3s;
+	animation-name: ofertas;
+}
+
+@keyframes ofertas{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity:2;
+	}
+}
+li a:hover{ /*menu nav*/
+    background-color: #ff751a;
+	color: black;
+}
+.gridDestinos { /*grid index*/
+	width: 90%;
+	height:25%;
+	margin:0 auto;
+  	display: grid;
+  	grid-template-columns: repeat(7,2fr);
+  	grid-auto-rows: 3fr;
+  	grid-gap: 10px 10px;
+}
+.gridIitem{ /*galeria index*/
+	height: 150px;
+}
+.gridIitem img { /*img index*/
+	width: 100%;
+	height: 100%;
+}
+#logo{
+	width: 135px;
+	height: 142px;
+	padding-top: 10px;
+}
