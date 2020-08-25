@@ -3,8 +3,9 @@
 	flex-flow: row wrap;
 	justify-content:center;
 	align-content: center;
-    background-image: linear-gradient(90deg, #853A01,#DE8A49) 
+    background-image: linear-gradient(90deg, #853A01,#DE8A49); 
 }
+
 #logo{
 	width: 135px;
 	height: 142px;
@@ -14,6 +15,7 @@
 .direccion{
 	text-align: center;
 }
+
 .flexMenu{ /*menu nav*/
 	display: flex;
 	flex-flow: row wrap;
@@ -21,6 +23,7 @@
 	align-content: center;
 	text-decoration: none;
 }
+
 ul{ /*nav menu principal*/
 	list-style-type:none;
 	text-align: center;

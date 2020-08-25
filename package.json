@@ -1,5 +1,5 @@
 {
-  "name": "dclase11",
+  "name": "projectgvt",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,14 @@
   "devDependencies": {
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4"
-  }
+  },
+  "description": "sass",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marina370/Proyecto-GVT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marina370/Proyecto-GVT/issues"
+  },
+  "homepage": "https://github.com/marina370/Proyecto-GVT#readme"
 }
